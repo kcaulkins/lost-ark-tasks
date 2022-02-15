@@ -1,0 +1,1 @@
+Quick and dirty task tracker for Lost Ark.
