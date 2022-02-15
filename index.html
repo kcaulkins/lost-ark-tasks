@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" />
+
+        <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script>
+    </head>
+
+    <body>
+
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a><h1>LOST ARK TASKS</h1></a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <div class="tm-main uk-section uk-section-default">
+            <div class="uk-container">
+                    
+                <div class="uk-flex uk-flex-between">
+                    <h2>Dailies per character</h2>
+                    <button class="uk-button uk-button-default uk-text-right" onclick="reset()">Reset</button>
+                </div>
+
+
+                <table class="uk-table uk-table-striped">
+                    <!-- <thead>
+                        <tr>
+                            <th>
+                                <h2>Dailies per character</h2>
+                                <button class="uk-button uk-button-default" onclick="reset()">Reset</button>
+                            </th>
+                        </tr>
+                    </thead> -->
+                    <tbody>
+                        <tr>
+                            <td>Chaos dungeons</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="1" id="1"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="2" id="2"></td>
+                        </tr>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <tr>
+                            <td>Guardian raids</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="3" id="3"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="4" id="4"></td>
+                        </tr>
+
+
+                        
+                        
+                        <tr>
+                            <td>Una's tasks</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="5" id="5"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="6" id="6"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="7" id="7"></td>
+                        </tr>
+                        </tr>
+                        
+                        
+
+                        <tr>
+                            <td>Kalthertz Island slaves</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="8" id="8"></td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td>Voyage co-op mission</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="9" id="9"></td>
+                        </tr>
+
+
+                        
+                        <tr>
+                            <td>Rapport emotes</td>
+                            <td><input class="uk-checkbox" type="checkbox" name="10" id="10"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="11" id="11"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="12" id="12"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="13" id="13"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="14" id="14"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="15" id="15"></td>
+                        </tr>
+                        <tr>
+                            <td>Rapport songs</td>
+                            <td><input class="uk-checkbox" type="checkbox" name="16" id="16"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="17" id="17"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="18" id="18"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="19" id="19"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="20" id="20"></td>
+                            <td><input class="uk-checkbox" type="checkbox" name="21" id="21"></td>
+                        </tr>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="uk-container">
+                    
+                <div class="uk-flex uk-flex-between">
+                    <h2>Dailies per account - TODO</h2>
+                    <button class="uk-button uk-button-default uk-text-right" onclick="reset()">Reset</button>
+                </div>
+
+
+                <table class="uk-table uk-table-striped">
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><input class="uk-checkbox" type="checkbox" name="2" id="2"></td>
+                        </tr>
+                        <tr>
+                </table>
+            </div>
+
+
+
+            <div class="uk-container">
+                    
+                <div class="uk-flex uk-flex-between">
+                    <h2>Weeklies - TODO</h2>
+                    <button class="uk-button uk-button-default uk-text-right" onclick="reset()">Reset</button>
+                </div>
+
+
+                <table class="uk-table uk-table-striped">
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><input class="uk-checkbox" type="checkbox" name="2" id="2"></td>
+                        </tr>
+                        <tr>
+                </table>
+            </div>
+
+
+
+        </div>
+
+
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </body>
+</html>
