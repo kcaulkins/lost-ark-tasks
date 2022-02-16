@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+}
+
 .uk-checkbox {
     border: 2px solid #444;
     height: 24px;
@@ -6,4 +10,8 @@
 
 .uk-container {
     margin-bottom: 64px;
+}
+
+body {
+    background: #1a1a1a;
 }
